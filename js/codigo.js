@@ -1,7 +1,7 @@
 var x;
 var y; 
 function mostrar() {
-  document.write("se ejecuto la funcion" + "<br />");
+  document.write("<br />" + "se ejecuto la funcion");
 }
 x = 5;
 y = 4;
@@ -9,10 +9,9 @@ if(x == 5) {
   
   mostrar()
 }
-
 if(x > 3) {
-  document.write("otra cosa");
+  document.write("<br />" + "otra cosa");
 }
 if(y < x){
-  alert("se ejecuto la variable Y sin probremas");
+ // alert("se ejecuto la variable Y sin probremas");
 }
