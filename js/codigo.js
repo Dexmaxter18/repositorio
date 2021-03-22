@@ -14,5 +14,5 @@ if(x > 3) {
   document.write("otra cosa");
 }
 if(y < x){
-  alert(se ejecuto la variable Y sin probremas);
+  alert("se ejecuto la variable Y sin probremas");
 }
