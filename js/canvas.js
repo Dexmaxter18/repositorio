@@ -1,6 +1,6 @@
 var espacio = document.getElementById("canvasRamdom");
 var contexto = espacio.getContext("2d");
-document.addEventListener("keypress", oprimirTeclas);
+document.addEventListener("keyup", oprimirTeclas);
 var x = 250;
 var y = 250;
 
@@ -13,4 +13,8 @@ function dibujarLinea(color, xInicial, yInicial, xFinal, yFinal, lienzo){
   lienzo.lineTo(xFinal, yFinal);
   lienzo.stroke();
   lienzo.closePath();
+}
+
+function oprimirTeclas(evento){
+  console.log(evento);
 }
